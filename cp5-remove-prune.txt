@@ -1,0 +1,14 @@
+Comando usado para eliminar:
+git worktree remove ../wt-feature-a
+
+Antes de eliminar, git worktree list mostraba:
+/home/abraham/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-4BXA  d1c0854 [main]
+/home/abraham/Documentos/dev/wt-feature-a  1234567 [feature-a]
+/home/abraham/Documentos/dev/wt-feature-b  89abcdef [feature-b]
+
+Despues de eliminar, la salida de git worktree list fue:
+/home/abraham/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-4BXA  d1c0854 [main]
+/home/abraham/Documentos/dev/wt-feature-b  89abcdef [feature-b]
+
+Diferencia entre remove y prune:
+El comando git worktree remove se utiliza para eliminar explícitamente un worktree de manera segura, siempre que no tenga cambios sin guardar. En cambio, git worktree prune se emplea para limpiar y eliminar referencias internas a worktrees cuyos directorios fueron borrados del disco de forma manual con un comando como rm -rf.

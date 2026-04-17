@@ -1,0 +1,7 @@
+Salida de git log --oneline --all:
+d1c0854 (HEAD -> main) Commit reciente
+45136d1 Commit inicial en main
+
+Salida de git branch:
+  feature-a
+* main

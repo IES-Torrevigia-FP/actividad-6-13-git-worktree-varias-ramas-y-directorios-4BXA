@@ -1,0 +1,6 @@
+Salida de git worktree list:
+/home/abraham/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-4BXA  d1c0854 [main]
+/home/abraham/Documentos/dev/wt-feature-a  1234567 [feature-a]
+
+Explicacion de la estructura:
+Tenemos el directorio principal con la rama main y un nuevo directorio de worktree asociado a la rama feature-a. Esto permite trabajar en ambas ramas sin necesidad de clonar el repositorio de nuevo ni tener que cambiar de rama y usar stash en el mismo directorio.

@@ -1,0 +1,7 @@
+Salida de git worktree list:
+/home/abraham/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-4BXA  d1c0854 [main]
+/home/abraham/Documentos/dev/wt-feature-a  1234567 [feature-a]
+
+Cambios en cada directorio:
+En el directorio de main hemos actualizado el archivo principal README.md
+En el directorio de feature-a hemos añadido más detalles a la funcionalidad, de forma totalmente paralela sin que interfieran los cambios entre sí.
