@@ -1,5 +1,0 @@
-git worktree add -b feature-b ../wt-feature-b main
-/home/abraham/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-4BXA  654ba4a [main]
-/home/abraham/Documentos/dev/wt-feature-a                                                 ed0a9ed [feature-a]
-/home/abraham/Documentos/dev/wt-feature-b                                                 9b5fca6 [feature-b]
-Diferencia: git worktree add -b crea la rama y automáticamente crea el directorio con esa rama activa, ahorrando el paso de checkout.
