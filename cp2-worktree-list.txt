@@ -1,3 +1,0 @@
-/home/abraham/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-4BXA  45136d1 [main]
-/home/abraham/Documentos/dev/wt-feature-a                                                 da76ff8 [feature-a]
-Estructura: el directorio principal contiene el repositorio original, mientras que el directorio ../wt-feature-a contiene un worktree enlazado en la rama feature-a, permitiendo trabajar en ambas sin cambiar de rama en el mismo lugar.
