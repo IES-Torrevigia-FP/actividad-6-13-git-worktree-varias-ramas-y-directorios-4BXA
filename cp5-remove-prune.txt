@@ -1,9 +1,0 @@
-git worktree remove ../wt-feature-a
-Antes:
-/home/abraham/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-4BXA  654ba4a [main]
-/home/abraham/Documentos/dev/wt-feature-a                                                 ed0a9ed [feature-a]
-/home/abraham/Documentos/dev/wt-feature-b                                                 9b5fca6 [feature-b]
-Después:
-/home/abraham/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-4BXA  654ba4a [main]
-/home/abraham/Documentos/dev/wt-feature-b                                                 9b5fca6 [feature-b]
-Diferencia: remove borra el worktree de forma activa, mientras que prune limpia referencias a worktrees que fueron borrados manualmente del sistema de archivos.
